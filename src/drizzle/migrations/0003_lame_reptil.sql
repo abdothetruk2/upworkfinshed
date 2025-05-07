@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD COLUMN "unit" text DEFAULT 'pcs' NOT NULL;
