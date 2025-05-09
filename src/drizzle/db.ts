@@ -2,4 +2,4 @@
 import { drizzle } from 'drizzle-orm/node-postgres';
 import * as schema from "./schema";
 
-export const db = drizzle("postgres://root33:6512746@localhost:5432/mydb"!, {schema});
+export const db = drizzle("postgres://postgres:6512746@34.91.225.7:5432/postgres?sslmode=require"!, {schema});
